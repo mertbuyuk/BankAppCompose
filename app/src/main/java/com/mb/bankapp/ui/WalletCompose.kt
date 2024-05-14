@@ -58,7 +58,7 @@ fun walletCompose(){
             .clip(RoundedCornerShape(14.dp))
             .background(MaterialTheme.colorScheme.secondaryContainer)
             .clickable {  }
-            .padding(16.dp)) {
+            .padding(12.dp)) {
 
             Icon(imageVector = Icons.Rounded.Search, contentDescription = "Search", tint = MaterialTheme.colorScheme.onSecondaryContainer)
 
