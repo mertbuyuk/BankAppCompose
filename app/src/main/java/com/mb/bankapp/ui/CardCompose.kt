@@ -47,7 +47,7 @@ val cards = listOf<CardModel>(
     CardModel(
         icon = R.drawable.ic_visa,
         cardNumber =  "2652 9856 4512 3267",
-        type = "Normal",
+        type = "Premium",
         balance = "80.40",
         color = getGradient(OrangeStart, OrangeEnd)
     ),

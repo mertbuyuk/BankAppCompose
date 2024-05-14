@@ -40,8 +40,9 @@ fun walletCompose(){
         Column {
 
             Text(text = "Wallet",
-                fontSize = 18.sp,
-                color = MaterialTheme.colorScheme.onBackground)
+                fontSize = 24.sp,
+                color = MaterialTheme.colorScheme.onBackground,
+                fontWeight = FontWeight.Bold)
 
             Spacer(modifier = Modifier.height(8.dp))
 
