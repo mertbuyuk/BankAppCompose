@@ -22,6 +22,7 @@ import androidx.compose.ui.unit.dp
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 import com.mb.bankapp.ui.bottomNavBar
 import com.mb.bankapp.ui.theme.BankAppTheme
+import com.mb.bankapp.ui.walletCompose
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

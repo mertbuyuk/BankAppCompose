@@ -49,12 +49,12 @@ fun bottomNavBar(){
                         Icon(
                             imageVector = bottomNavItem.icon,
                             contentDescription = bottomNavItem.title,
-                            tint = MaterialTheme.colorScheme.background
+                            tint = MaterialTheme.colorScheme.onBackground
 
                         )
                     },
                     label = {
-                        Text(text = bottomNavItem.title,color = MaterialTheme.colorScheme.background)
+                        Text(text = bottomNavItem.title,color = MaterialTheme.colorScheme.onBackground)
                     }
                 )
             }
